@@ -115,7 +115,7 @@ console.log("Ammontare totale da addebitare all'utente:", ammontareDelTotale);
 
 /* 
 // Valore fornito
-var valoreFornito = "42"; 
+let valoreFornito = "42"; 
 // Verifichiamo se è un numero
 if (typeof valoreFornito === 'number') {
     console.log("Il valore fornito è un numero.");
