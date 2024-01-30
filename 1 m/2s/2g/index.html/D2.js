@@ -76,21 +76,6 @@ function verificaCondizione(num1, num2) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
-/* ESERCIZIO 6
-  Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
-  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
-*/
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
-/* ESERCIZIO 7
-  Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
-  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
-  Alla fine mostra il risultato in console.
-*/
-
 /* // Saldo totale del carrello dell'utente
 let saldoDelCarrello = 65; 
 
@@ -108,6 +93,21 @@ console.log("Totale carrello:", saldoDelCarrello);
 console.log("Spedizione gratuita:", dirittoSpedizioneGratuita);
 console.log("Ammontare totale da addebitare all'utente:", ammontareDelTotale);
  */
+
+/* ESERCIZIO 6
+  Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
+  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+/* ESERCIZIO 7
+  Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
+  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
+  Alla fine mostra il risultato in console.
+*/
+
+/*  */
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
