@@ -105,8 +105,7 @@ const starWarsCharacters = [
   Crea una variabile chiamata "charactersNames" e assegnale un array vuoto
 */
 
-/* let charactersName = [ ];
-*/
+let charactersName = [ ];
 
 /* ESERCIZIO 2
   Utilizzando un ciclo for, cicla l'array "starWarsCharacters".
@@ -114,7 +113,7 @@ const starWarsCharacters = [
   Come risultato dovresti ottenere qualcosa di simile: ["Luke Skywalker", "C-3PO", "R2-D2", etc..]
 */
 
-/*
+
 let starWarsCharacters = [
   { name: "Luke Skywalker" },
   { name: "Darth Vader" },
@@ -138,13 +137,13 @@ console.log(charactersName);
   Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci al suo interno tutti gli oggetti femminili.
 */
 
-/*
+
 let starWarsCharacters = [
   { name: "Princess Leia", gender: "female" },
   { name: "Leia Organa", gender: "female" },
 ]
 let femaleCharacters = [];
-{
+
 
 for (let i = 0; i < starWarsCharacters.length; i++) {
   charactersNames.push(starWarsCharacters[i].name);
@@ -156,27 +155,28 @@ if (starWarsCharacters[i].gender === "female") {
 console.log("charactersNames:", charactersNames);
 console.log("femaleCharacters:", femaleCharacters);
 
+
 /* ESERCIZIO 4
   Crea un oggetto "eyeColor" che abbia le seguenti proprietà: blue, yellow, brown, red, blue-gray.
   Ad ognuna di queste proprietà assegna come valore un array vuoto.
 */
-/*
+
 let eyeColor = {
   blue: [],
   yellow: [],
   brown: [],
   red: [],
-  blue-gray : []
+  "blue-gray ": []
 };
 console.log(eyeColor);
-*/
+
 
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
 */
 
-/* 
+
 let starWarsCharacters = [
   { name: "Luke Skywalker", eye_color: "blue" },
   { name: "Darth Vader", eye_color: "yellow" },
@@ -210,7 +210,7 @@ for (var i = 0; i < starWarsCharacters.length; i++) {
       break;
   }
 }
-console.log.(eyeColor);
+console.log(eyeColor);
 
 
 
