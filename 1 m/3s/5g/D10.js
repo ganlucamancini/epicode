@@ -88,9 +88,8 @@ console.log("Il numero più grande è:", whoIsBigger(10, 5)); // Output: 10
 
   Es.: splitMe("I love coding") => ritorna ["I", "Love", "Coding"]
 */
-
+let sentence = "ciao sono gianluca";
 function splitMe(sentence) {
-  let sentence = "ciao sono gianluca";
   return sentence.split(" ");
 }
 console.log("Array di parole:", splitMe(sentence));
