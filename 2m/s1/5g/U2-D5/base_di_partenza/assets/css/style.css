@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.container {
+    max-width: 64vw;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.navbar {
+    background-color: #ffc017;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #191919;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: small;
+}
+
+.hero {
+    background-color:#ffc017;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+    border: 2px solid #000;
+}
+
+h1 {
+    font-size: 7em;
+    color: #000000;
+    position: absolute;
+    bottom: 100px;
+    font-family: "Spectral", serif;
+    font-style: normal;
+}
+
+.p1 {
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 15px;
+    color: #000;
+    
+}
+.p2 {
+    font-size: 1.5em;
+    position: absolute;
+    bottom: -7px;
+    color: #000;
+}
+.btn {
+    display: inline-block;
+    background-color: #191919;
+    color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: small;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    display: inline-block;
+    background-color: #191919;
+    color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    font-size: larger;
+}
+.btn:hover {
+    background-color: grey;
+}
+.btn2:hover{
+    background-color: grey;
+}
+.trading{
+display: flex;
+position: relative;
+}
+.medium{
+    position: absolute;
+    left: 40px;
+    top: 7px;
+}
+.featured {
+    padding: 50px 0;
+}
+.story{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+
+}
+.linkStory{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.pStory{
+font-weight: bold;
+position: absolute;
+top: 50px;
+left: 61px;
+
+}
+.dataStory{
+    font-size: 12px;
+    font-weight: lighter;
+    position: absolute;
+    top: 70px;
+    left: 61px;
+}
+
