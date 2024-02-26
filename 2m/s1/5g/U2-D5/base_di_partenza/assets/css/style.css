@@ -11,24 +11,42 @@ body {
     font-style: normal;
 
 }
-
+.containerNav {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .container {
     max-width: 64vw;
     margin: 0 auto;
     padding: 0 20px;
-    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 40vh;
+    max-width: 1200px;
 }
-
+.leftPanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+}
 .navbar {
     background-color: #ffc017;
     color: white;
     padding: 20px 0;
-}
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    z-index: 1000;
+    height: 75px;
 
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .navbar a {
@@ -44,8 +62,9 @@ body {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 200px 0;
-    border: 2px solid #000;
+    margin-top:  75px;
+    border-bottom: 2px solid #000;
+    max-height: fit-content;
 }
 
 h1 {
@@ -60,10 +79,6 @@ h1 {
     color: #000;
     
 }
-.p2 {
-    font-size: 1.5em;
-    color: #000;
-}
 .btn {
     display: inline-block;
     background-color: #191919;
@@ -77,16 +92,12 @@ h1 {
     cursor: pointer;
 }
 .btn2{
-    display: inline-block;
     background-color: #191919;
     color: #f4f4f4;
     padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    position: absolute;
-    top: 80px;
-    left: 50px;
     border: none;
     cursor: pointer;
     height: 40px;
@@ -103,21 +114,22 @@ h1 {
 display: flex;
 position: relative;
 }
-.medium{
-    position: absolute;
-    left: 40px;
-    top: 7px;
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
 }
 .featured {
     padding: 50px 0;
+    display: flex;
+    justify-content: center;
 }
 .story{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 10px; 
-    background-color: white;
-    padding: 10px;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+
 }
 
 .item {
@@ -152,4 +164,56 @@ img{
 }
 #logoTrading{
     height: 30px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    width:60% ;
+    margin: auto;
+}
+.listLeft{
+width: 50%;
+flex-wrap: wrap;
+}
+.listItem{
+    display: flex;
+    justify-content: center;
+    
+}
+.rightSide img{
+width: 300px;
+height: 200px;
+padding-left: 20px;
+}
+.stickyBar{
+    width: 50%;
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+    z-index: 100;
+}
+.stickyBar h4 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.btn3{
+    border: none;
+    height: 25px;
+    width: 65px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.insideStory{
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+.p2Story{
+    font-size: 20px;
+    font-weight: bold; 
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 10px;
 }
