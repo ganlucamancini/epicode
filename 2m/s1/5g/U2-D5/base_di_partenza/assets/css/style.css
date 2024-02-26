@@ -170,9 +170,6 @@ img{
     justify-content: center;
     width:60% ;
     margin: auto;
-    position: relative;
-    height: 60%;
-    overflow-y: scroll
 }
 .listLeft{
 width: 50%;
@@ -191,8 +188,9 @@ padding-left: 20px;
     width: 50%;
     position: sticky;
     padding: 20px;
-    top: -100px;
     z-index: 100;
+    top: -100px;
+
 }
 .stickyBar h4 {
     margin: 0;
